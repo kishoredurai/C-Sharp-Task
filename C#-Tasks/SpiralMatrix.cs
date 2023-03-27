@@ -8,7 +8,7 @@ namespace C__Tasks
 {
     internal class SpiralMatrix
     {
-        static void Main(string[] args)
+        static void Massin(string[] args)
         {
             int[][] matrix = new int[3][];
             matrix[0] = new int[] { 1, 2, 3, 4 };
@@ -53,9 +53,10 @@ namespace C__Tasks
                     bottomRow--;
                 }
 
-                // b - t
+               
                 if (LeftColumn <= RightColumn) 
                 {
+                    // b - t
                     for (int i = bottomRow; i >= topRow; i--)
                     {
                         output[outputindex] = matrix[i][LeftColumn];
