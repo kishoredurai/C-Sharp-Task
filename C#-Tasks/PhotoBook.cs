@@ -30,7 +30,7 @@ namespace C__Tasks
     }
     public class PhotoBookTest
     {
-        public static void Main(string[] args)
+        public static void cc(string[] args)
         {
             // Create a default photo book and 
             PhotoBook book1 = new PhotoBook();
@@ -41,7 +41,7 @@ namespace C__Tasks
             Console.WriteLine("Number of pages in photo book with 32 pages: " + book2.GetNumberPages());
 
 
-            // Create a large photo book and show the number of pages
+            //large photo book and show the number of pages
             AddPhotoBook book3 = new AddPhotoBook();
             Console.WriteLine("Number of pages in large photo book: " + book3.GetNumberPages());
         }
