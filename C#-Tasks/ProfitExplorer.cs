@@ -29,7 +29,7 @@ namespace C__Tasks
             }
             return maxProfit;
         }
-        static void Main(string[] args)
+        static void ss(string[] args)
         {
 
             
